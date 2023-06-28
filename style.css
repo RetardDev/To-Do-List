@@ -1,0 +1,101 @@
+body{
+    background-color: #FFF5F5;
+    height: 100000px;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todolist-container{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   
+}
+
+.text-input{
+    margin-right: 10px;
+   width: 400px;
+   border: 2px solid grey;
+   transition: 0.2s;
+   outline: none;
+}
+.text-input:focus {
+    border: 3px solid #F4F0D8; 
+  }
+
+.date-input {
+    margin-right: 10px;
+    border: 2px solid grey;
+    transition: 0.2s;
+    outline: none;
+}
+
+.date-input:focus {
+    border: 3px solid yellow;
+}
+
+.Enter_button{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.output{
+    display: block;
+    
+}
+
+.paragraph-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paragraph-container button{
+    display: inline-block;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.paragraph-container p{
+    display: inline-block;
+    font-size: 28px;
+    
+}
+
+#dailychecker{
+    height: 32px;
+    margin-right: 10px;
+}
+
+#w3-container{
+    background-color: lightgrey;
+    border: solid black;
+}
+
+#w3{
+    background-color: green;
+}
+
+#myBar{
+    height: 20px;
+}
+
+
+#Task {
+    position: sticky;
+    top: 20px; /* Adjust the top value according to your needs */
+  }
+  
